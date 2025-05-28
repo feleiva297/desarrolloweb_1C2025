@@ -1,6 +1,6 @@
 main.fede-section {
     max-width: 1280px;
-    margin: 4rem auto 4rem;
+    margin: 2.5rem auto 2.5rem;
     color: var(--primary-text);
   }
   
@@ -13,7 +13,7 @@ main.fede-section {
   main.fede-section p {
     font-size: 20px;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 1000px;
   }
   
   main.fede-section .about-me {
@@ -63,7 +63,6 @@ main.fede-section {
   main .image-grid {
     max-width: 1280px;
     margin: 4rem auto;
-    padding: 0 1rem;
     text-align: center;
   }
   
