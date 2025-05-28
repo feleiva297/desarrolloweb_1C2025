@@ -1,0 +1,209 @@
+:root {
+    --primary: #9ac9ac;
+    --accent: #08314d;
+    --light-bg: #f9f9f9;
+    --dark-text: #212121;
+    --border-radius: 10px;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    margin: 0;
+    padding: 0;
+  }
+  
+  main.dario-section {
+    padding: 2rem;
+  }
+  
+  .titulo-central {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    background-color: white;
+  }
+  
+  .columns-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .left-column {
+    flex: 1;
+    background-color: white;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .central-column {
+    flex: 2;
+    background-color: white;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .right-column {
+    flex: 1;
+    background-color: white;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    color: var(--primary);
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 38px;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  h3 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  h4 {
+    font-weight: 600;
+    color: var(--dark-text);
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+  }
+  
+  p,
+  li {
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+  }
+
+  p {
+    margin-top: 25px;
+  }
+  
+  
+  .perfil{
+    width: 400px; 
+    height: auto;
+    margin: 0px;
+    border-radius: var(--border-radius);
+  }
+  
+  .lecturaActual img {
+    width: 200px; 
+    height: auto;
+    margin-left: 50px;
+    border-radius: var(--border-radius);
+  
+  }
+  
+  .sobreAutor img {
+    width: 500px; 
+    height: auto;
+    border-radius: var(--border-radius);
+  }
+  
+  
+  
+  .redes-sociales img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .redes-sociales img:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .right-column img {
+    width: 200px; 
+    height: auto;
+    border-radius: var(--border-radius);
+  }
+  
+  
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 18px;
+    color: var(--primary);
+  }
+  
+  
+  .obra-lista {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  .obra-lista li {
+    flex: 1;
+    max-width: 150px;
+  }
+  
+  .obra-lista img {
+    width: 100%;
+    border-radius: var(--border-radius);
+  }
+  
+  footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
+  .footer-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer-info {
+    font-size: 14px;
+    text-align: right;
+    max-width: 300px;
+  }
+  
+  
