@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="js/main.js"></script>
     <title>Blog del Grupo 3</title>
   </head>
   <body>
@@ -23,6 +24,10 @@
             <li><a href="brian.html">Brian</a></li>
             <li><a href="dario.html">Darío</a></li>
             <li><a href="fede.html">Fede</a></li>
+            <li id="contenedorFechaHoraActual">
+              <span id="fechaActual"></span>
+              <span id="horaActual"></span>
+            </li>
           </ul>
         </nav>
       </div>
@@ -42,7 +47,13 @@
         </div>
         <div class="circle-container">
           <img src="img/foto2.jpg" alt="Brian" class="team-img img1">
-          <img src="img/fede.png" alt="Fede" class="team-img img2">
+          <img 
+            src="img/fede.png" 
+            data-src-original="img/fede.png" 
+            data-src-hover="img/fede_grid_03.png" 
+            class="team-img img2"
+            alt="img de Fede"
+          />
           <img src="img/FotoDario.png" alt="Dario" class="team-img img3">
         </div>
       </section>
