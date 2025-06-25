@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/cuestionario.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="js/cuestionario.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="js/main.js"></script>
     <title>Blog del Grupo 3</title>
   </head>
   <body>
@@ -21,42 +22,18 @@
         <nav>
           <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="indexBrian.html">Brian</a></li>
+            <li><a href="brian.html">Brian</a></li>
             <li><a href="dario.html">Darío</a></li>
             <li><a href="fede.html">Fede</a></li>
-            <li id="contenedorFechaHoraActual">
-              <span id="fechaActual"></span>
-              <span id="horaActual"></span>
-            </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main>
-      <section class="onboarding">
-        <div class="text">
-          <h2>Bienvenidos</h2>
-          <p>
-            Este blog es parte de un trabajo N°2 de la materia Desarrollo Web. 
-          </p>
-          <p>
-            Acá compartimos un poco sobre cada uno de los integrantes del grupo,
-            nuestras historias y pasiones.
-          </p>
-        </div>
-        <div class="circle-container">
-          <img src="img/foto2.jpg" alt="Brian" class="team-img img1">
-          <img 
-            src="img/fede.png" 
-            data-src-original="img/fede.png" 
-            data-src-hover="img/fede_grid_03.png" 
-            class="team-img img2"
-            alt="img de Fede"
-          />
-          <img src="img/FotoDario.png" alt="Dario" class="team-img img3">
-        </div>
-      </section>
+    <main class="cuestionario-section">
+      <h1>Cuestionario del Blog</h1>
+      <form id="quizForm"></form>
+      <div id="resultado"></div>
     </main>
     <footer class="footer">
       <div class="footer-container">
@@ -67,7 +44,7 @@
         <nav class="footer-nav">
           <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="indexBrian.html">Brian</a></li>
+            <li><a href="brian.html">Brian</a></li>
             <li><a href="dario.html">Darío</a></li>
             <li><a href="fede.html">Fede</a></li>
           </ul>

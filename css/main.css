@@ -58,9 +58,23 @@ header .header-container nav ul {
   width: 100%;
 }
 
+header .header-container nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header .header-container nav ul li a {
   text-decoration: none;
   font-size: 18px;
+  min-height: 20px;
+}
+
+header .header-container nav ul #contenedorFechaHoraActual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
 }
 
 header .header-container,
